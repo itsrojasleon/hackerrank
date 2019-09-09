@@ -17,17 +17,17 @@ function getLetter(s) {
     case 'h' || 'j' || 'k' || 'l' || 'm':
       letter = 'C';
       break;
-    case 'n' ||
+    case 'z' ||
+      'n' ||
       'p' ||
       'q' ||
       'r' ||
       's' ||
       't' ||
-      'w' ||
       'v' ||
+      'w' ||
       'x' ||
-      'y' ||
-      'z':
+      'y':
       letter = 'D';
   }
   return letter;
