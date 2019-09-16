@@ -10,9 +10,8 @@
 function getMaxLessThanK(n, k) {
   let bitAnd = 0;
   let max = 0;
-  let j;
   for (let i = 1; i <= n; i++) {
-    for (j = i + 1; j <= n; j++) {
+    for (let j = i + 1; j <= n; j++) {
       bitAnd = i & j;
       if (bitAnd > max && bitAnd < k) {
         max = bitAnd;
