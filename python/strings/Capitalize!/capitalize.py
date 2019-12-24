@@ -1,3 +1,6 @@
+# Capitalize!
+# https://www.hackerrank.com/challenges/capitalize/problem
+
 def solve(s):
   a = s.split(' ')
   result = ''
