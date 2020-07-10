@@ -13,5 +13,6 @@ function matchingStrings(strings, queries) {
     }
     result.push(sum);
   }
+
   return result;
 }
